@@ -1,0 +1,13 @@
+## ディレクトリ構成(2020.12.30更新)
+-dist/ 書き出し先のディレクトリ
+-src/ 読み出すディレクトリ
+    -api/ : 自作APIを入れるところ
+    -assets/ : HTML/CSS/IMGファイルを入れるところ
+    -auth/ : 認証周りの機能を入れるところ
+    -memo/ : 利用頻度が高い文法のチートシートやディレクトリ構成をメモした内容を入れるファイル
+    app.controller.spec.ts : コントローラーのテストファイル
+    app.controller.ts : どこのURLに出力する要素を飛ばすかを設定するファイル
+    app.module.ts : PHPフレームワークでいうところのController要素（serviceとcontrollerディレクトリを結びつけるもの）
+    app.service.ts : 描画内容をまとめるファイル
+    main.ts : 設定をまとめたconfig系のファイル
+-test/ : 動作テスト用のテストファイル
